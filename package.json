@@ -13,7 +13,16 @@
                     "releaseRules": "./release-rules.js"
                 }
             ],
-            "@semantic-release/release-notes-generator"
+            "@semantic-release/release-notes-generator",
+            [
+                "@semantic-release/changelog",
+                {
+                    "changelogFile": "docs/CHANGELOG.md"
+                }
+            ]
         ]
+    },
+    "dependencies": {
+        "@semantic-release/changelog": "github:semantic-release/changelog"
     }
 }
