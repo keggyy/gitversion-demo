@@ -1,0 +1,19 @@
+{
+    "name": "semantic-release",
+    "release": {
+        "branches": [
+            "master",
+            "next"
+        ],
+        "plugins": [
+            [
+                "@semantic-release/commit-analyzer",
+                {
+                    "preset": "angular",
+                    "releaseRules": "./release-rules.js"
+                }
+            ],
+            "@semantic-release/release-notes-generator"
+        ]
+    }
+}
