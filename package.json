@@ -24,5 +24,8 @@
     },
     "dependencies": {
         "@semantic-release/changelog": "github:semantic-release/changelog"
+    },
+    "devDependencies": {
+        "commitizen": "^4.0.4"
     }
 }
