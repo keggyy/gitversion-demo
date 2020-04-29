@@ -22,10 +22,15 @@
             ]
         ]
     },
+    "scripts": {
+        "commit": "git-cz"
+    },
+
     "dependencies": {
         "@semantic-release/changelog": "github:semantic-release/changelog"
     },
     "devDependencies": {
-        "commitizen": "^4.0.4"
+        "commitizen": "^4.0.4",
+        "husky": "^4.2.5"
     }
 }
