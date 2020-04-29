@@ -25,7 +25,6 @@
     "scripts": {
         "commit": "git-cz"
     },
-
     "dependencies": {
         "@semantic-release/changelog": "github:semantic-release/changelog"
     },
