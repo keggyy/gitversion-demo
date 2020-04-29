@@ -3,7 +3,7 @@
     "release": {
         "branches": [
             "master",
-            "next"
+            "develop"
         ],
         "plugins": [
             [
@@ -21,7 +21,7 @@
             ]
         ]
     },
-    
+
     "scripts": {
         "commit": "git-cz"
     },
