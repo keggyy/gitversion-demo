@@ -21,6 +21,7 @@
             ]
         ]
     },
+    
     "scripts": {
         "commit": "git-cz"
     },
